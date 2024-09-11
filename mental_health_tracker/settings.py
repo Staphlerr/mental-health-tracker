@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-1c9g3d7@*%dj(ycw44qp+wt20n^t3g$*@wm9m9lts6--(dwxzd
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "belva-ghani-mentalhealthtracker.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "belva-ghani-mentalhealthtracker2.pbp.cs.ui.ac.id"]
 
 # Application definition
 
@@ -122,4 +122,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/belva.ghani/mentalhealthtracker", "https://pbp.cs.ui.ac.id/belva.ghani/mentalhealthtracker"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://pbp.cs.ui.ac.id/belva.ghani/mentalhealthtracker2", "https://pbp.cs.ui.ac.id/belva.ghani/mentalhealthtracker2"]
